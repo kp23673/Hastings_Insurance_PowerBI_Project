@@ -1,118 +1,121 @@
-# Hastings_Insurance_PowerBI_Project
+# 📊 Hastings Insurance Power BI Project  
 
-## About the Company
-Hastings is a leading provider in the insurance industry, specializing in delivering effective pricing strategies to improve commercial performance. The company strives to ensure fair customer outcomes while optimizing pricing approaches through data-driven insights. By continuously refining its pricing strategies, Hastings aims to drive better conversion rates, enhance profitability, and maintain a competitive edge in the market.
+## 🏢 About the Company  
+**Hastings Insurance** is a leading provider in the insurance industry, specializing in **data-driven pricing strategies** to enhance **commercial performance**. The company ensures **fair customer outcomes** while optimizing pricing approaches to:  
+✅ Drive **higher conversion rates**  
+✅ Improve **profitability**  
+✅ Maintain a **competitive edge**  
 
+---
 
-## Background
-
-The Commercial team are responsible for developing and delivering Hastings’ Street pricing strategy and driving commercial performance whilst ensuring fair customer outcomes.
-Your Commercial Director would like you to identify some pricing opportunities in the data we have available. 
-You are given a dummy sample dataset of quotes with sale information (please find column descriptions in the appendix below). 
-An existing A/B price test can be analysed, where group A saw no price change and group B received a 1% discount.
-
-## Dataset Overview
-
-- Contains **10,000 rows** and **16 columns**.  
-- Related to an **insurance price test experiment**.  
-- Records customer **quotes and sales**.  
-- Segmented into different **pricing test groups (A & B)**.  
-- Purpose:  
-  - Analyze the effectiveness of **different pricing strategies**.  
-  - Measure the impact on **conversion rates** and **profitability**.
- 
-## Key Columns in the Dataset  
-
-- **price_test_group** – Identifies the pricing strategy being tested (**A** or **B**).  
-- **quote & sale** – Determines whether a customer received a quote and whether they proceeded with the purchase.  
-- **net_premium** – The premium amount collected for an insurance policy.  
-- **total_profit** – The profit generated from each transaction.  
-- **business_provider** – Identifies the source (e.g., **direct, third-party comparison sites**).  
-- **vehicle_value, vehicle_age, vehicle_annual_mileage** – Key risk-related factors.  
-- **driver_age, transmission, driver_gender** – Additional risk and demographic data.
-
-## Key Findings from the Data Analysis  
-
-### A) Conversion Rate & Performance of Price Test Groups  
+## 🎯 Project Background  
+The **Commercial Team** at Hastings is responsible for **developing and optimizing pricing strategies**. To assess **pricing effectiveness**, an **A/B price test** was conducted where:  
 - **Group A**: No discount  
-- **Group B**: 1% discount  
-- Group B has a slightly higher **conversion rate** (**3.53%**) compared to Group A (**2.92%**).  
-- Customers in **Group B are more likely to proceed** with the purchase after receiving a quote.  
-- Even a small **1% discount increased sales by 16.7%** (from **2.92% to 3.53%**).  
+- **Group B**: Received a **1% discount**  
 
-### B) Impact on Premium Revenue  
-- The **average net premium** decreased slightly in Group B (**$647.96 vs. $655.50**).  
-- This is expected since Group B received a **1% discount** on the price.  
+📌 **Objective**: Identify pricing opportunities by analyzing:  
+- **Conversion rates** 🏷️  
+- **Premium revenue** 💰  
+- **Profitability impact** 📈  
 
-### C) Impact on Profitability  
-- Surprisingly, **Group B generated slightly higher profit per sale** (**$70.01 vs. $65.62**).  
-- This means the **increase in sales volume compensated for the lower price per sale**.
+---
 
-  
-## Why Did These Results Occur?  
+## 📂 Dataset Overview  
+- **10,000 records**, **16 columns**  
+- Includes **insurance quotes, sales, and premium data**  
+- Segmented into **pricing test groups (A & B)**  
+- Key columns analyzed:  
+  - **price_test_group** → Pricing strategy applied (A/B)  
+  - **net_premium** → Insurance premium collected  
+  - **total_profit** → Profit per transaction  
+  - **business_provider** → Sales channel (Direct, Third-party, etc.)  
+  - **vehicle_value, vehicle_age, driver_age** → Risk assessment factors  
 
-### Several factors could explain these results:  
+---
 
-- **Price Sensitivity**: Customers may have been more likely to purchase after seeing even a small price reduction.  
-- **Psychological Effect of Discounts**: Even a **1% discount** can create a **perception of value**, leading to more conversions.  
-- **Competitive Positioning**: If competitors were offering lower prices, the **1% discount** might have helped **match or undercut** their prices.  
-- **Elasticity of Demand**: If the product is **price-sensitive**, small changes can result in **significant differences** in conversion rates.  
+## 🔎 Key Insights from Data Analysis  
 
-## What Should the Next Price Change Be?  
+### 🏷️ **Conversion Rate & Price Test Performance**  
+- **Group A** (No discount) → **2.92% conversion rate**  
+- **Group B** (1% discount) → **3.53% conversion rate**  
+📌 **+16.7% increase** in conversion rate with just a **1% discount**  
 
-#### **Option 1: Maintain the 1% Discount**  
-- If the goal is to **maximize conversions**, the **1% discount is effective**.  
-- Increased **conversion rates** could lead to **higher total profit**, even with slightly lower premiums.  
+### 💰 **Impact on Premium Revenue**  
+- **Group A avg. net premium**: **$655.50**  
+- **Group B avg. net premium**: **$647.96** (slightly lower due to the discount)  
 
-#### **Option 2: Test a Slightly Higher Discount (e.g., 1.5% or 2%)**  
-- If demand is **highly price-sensitive**, a **slightly higher discount** could further increase conversions.  
-- However, **profitability should be carefully monitored** to ensure margins remain healthy.  
+### 📈 **Impact on Profitability**  
+- **Group B profit per sale**: **$70.01**  
+- **Group A profit per sale**: **$65.62**  
+📌 **Higher sales volume in Group B compensated for the lower price, increasing total profit.**  
 
-#### **Option 3: Segment-Based Pricing**  
-- Instead of a **blanket discount**, pricing could be adjusted based on **customer behavior** or **vehicle risk factors**.  
-- **High-risk customers** might receive **lower discounts**, while **price-sensitive customers** could receive **higher discounts**.
+---
 
-## Summary  
+## 🤔 Why Did These Results Occur?  
+📌 **Price Sensitivity** → Customers respond positively to **even small discounts**  
+📌 **Psychological Effect** → A discount **increases perceived value**  
+📌 **Competitive Positioning** → 1% discount **matches or undercuts competitors**  
+📌 **Elastic Demand** → Small price changes **significantly impact conversion rates**  
 
-Overall, this report provides a **comprehensive analysis** of key insurance metrics, including:  
-- **Net premiums, sales, quotes, and profits**  
-- Various factors such as **vehicle value, vehicle age, driver age, mileage, business providers, and price test groups**  
+---
 
-### Key Insights:  
-- **Higher premiums** are observed for **newer vehicles, younger and older drivers, and higher-value cars** due to increased risk.  
-- **Sales performance** varies significantly by **business provider and vehicle make**, helping identify **top-performing channels** and **customer preferences**.  
-- The **comparison of price test groups** reveals **which pricing strategies** are more effective in **driving sales and profitability**.  
+## 🔥 Next Steps: What Should the Next Price Change Be?  
 
-### Business Impact:  
-This analysis supports **data-driven decisions** for:  
-- **Pricing optimization**  
-- **Targeted marketing**  
-- **Improving conversion rates**  
-Ultimately, these insights help drive **business growth and profitability**.
+#### **1️⃣ Maintain the 1% Discount**  
+- **If the goal is higher sales volume**, the **1% discount works**  
+- **Profits increased**, even with slightly lower net premiums  
 
-## Skills Learned and Their Usefulness for Stakeholders
+#### **2️⃣ Test a Slightly Higher Discount (1.5% - 2%)**  
+- **Potential for further conversion growth**  
+- **Monitor profitability** to ensure sustainable margins  
 
-### Skills Learned:
-1. **Pricing Strategy Analysis**: I have learned how to assess the impact of different pricing strategies (such as the 1% discount) on customer conversion rates, premium revenue, and overall profitability. This enables the formulation of optimal pricing strategies.
-  
-2. **Conversion Rate Optimization**: Understanding how small changes in pricing can significantly affect conversion rates and customer behavior. This insight can be used to fine-tune strategies to maximize sales while considering the balance between volume and profitability.
+#### **3️⃣ Segment-Based Pricing**  
+- **Offer different discounts based on risk & customer behavior**  
+- **High-risk customers** → **Lower discounts**  
+- **Price-sensitive customers** → **Higher discounts**  
 
-3. **Profitability and Revenue Analysis**: I have learned how to analyze and compare profitability across different groups, allowing for data-driven decisions regarding pricing, and understanding how volume can offset lower premiums.
+---
 
-4. **Segmentation-Based Pricing**: Developing a deeper understanding of how segmentation (e.g., by customer behavior, vehicle risk, etc.) can lead to more targeted and personalized pricing strategies, ultimately improving customer satisfaction and retention.
+## 📊 Summary  
 
-### Usefulness for Stakeholders:
+### **Key Findings:**  
+✅ **Younger drivers & high-value vehicles → Higher premiums**  
+✅ **Conversion rates improved with price discounts**  
+✅ **Group B (1% discount) generated more sales & total profit**  
+✅ **Sales vary by business provider & vehicle type**  
 
-- **Commercial Team**: The analysis and recommendations regarding pricing strategies provide valuable insights to fine-tune pricing and enhance conversions while maintaining a balance with profitability. The commercial team can use these insights to design better offers that meet customer expectations.
-  
-- **Marketing & Sales Teams**: By understanding the impact of pricing changes on conversion rates, marketing can tailor campaigns that focus on price-sensitive segments and maximize the effectiveness of offers. The sales team can leverage insights into customer preferences to adjust sales tactics.
+📌 **Business Impact:**  
+- **Optimize pricing strategies for better conversions & profitability**  
+- **Use customer insights to enhance targeted marketing**  
+- **Refine segmentation to balance sales & risk management**  
 
-- **Finance Team**: With a clear understanding of the impact of pricing adjustments on profitability, the finance team can better forecast revenue and ensure that pricing changes do not compromise the overall margin. They can also monitor financial health with a clear view of potential impacts from pricing decisions.
+---
 
-- **Product Development**: Understanding the drivers of conversion and profitability allows the product team to assess whether the pricing models align with product value and customer demand. They can use this data to fine-tune product offerings and align pricing accordingly.
+## 🚀 Skills Learned & Stakeholder Impact  
 
-Overall, these skills are critical for driving **data-informed decisions** that contribute to **increased conversions, optimized pricing**, and ultimately **higher profitability** for Hastings.
+### **🔧 Skills Acquired**  
+✅ **Pricing Strategy Analysis** → Assessing how discounts impact sales & revenue  
+✅ **Conversion Rate Optimization** → Identifying key drivers of customer purchase behavior  
+✅ **Profitability & Revenue Analysis** → Understanding how pricing volume offsets margin reductions  
+✅ **Segmentation-Based Pricing** → Developing strategies tailored to different customer groups  
 
+### **🎯 How This Benefits Stakeholders**  
 
+| **Stakeholder** | **Benefits** |
+|----------------|-------------|
+| 📊 **Commercial Team** | Fine-tune pricing strategies to **maximize conversions & profits**. |
+| 📢 **Marketing Team** | Target the right customer segments for **higher engagement**. |
+| 💰 **Finance Team** | Ensure pricing changes maintain **healthy profit margins**. |
+| 🚗 **Product Development** | Adjust insurance pricing models based on **data-driven risk assessments**. |
 
+---
 
+## 📌 Conclusion  
+This **Power BI-driven analysis** of **insurance pricing strategies** provides **valuable insights** into:  
+✅ **Optimal price discounts for increasing conversions**  
+✅ **Impact of price elasticity on sales & profitability**  
+✅ **Actionable pricing strategies for future growth**  
+
+By implementing **data-driven decisions**, Hastings can **refine pricing models, improve customer satisfaction, and drive long-term profitability**. 🚀📊  
+
+---
