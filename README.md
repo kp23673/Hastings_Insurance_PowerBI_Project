@@ -1,3 +1,9 @@
+# Hastings_Insurance_PowerBI_Project
+
+## About the Company
+Hastings is a leading provider in the insurance industry, specializing in delivering effective pricing strategies to improve commercial performance. The company strives to ensure fair customer outcomes while optimizing pricing approaches through data-driven insights. By continuously refining its pricing strategies, Hastings aims to drive better conversion rates, enhance profitability, and maintain a competitive edge in the market.
+
+
 ## Background
 
 The Commercial team are responsible for developing and delivering Hastings’ Street pricing strategy and driving commercial performance whilst ensuring fair customer outcomes.
@@ -82,7 +88,30 @@ This analysis supports **data-driven decisions** for:
 - **Pricing optimization**  
 - **Targeted marketing**  
 - **Improving conversion rates**  
-Ultimately, these insights help drive **business growth and profitability**.  
+Ultimately, these insights help drive **business growth and profitability**.
+
+## Skills Learned and Their Usefulness for Stakeholders
+
+### Skills Learned:
+1. **Pricing Strategy Analysis**: I have learned how to assess the impact of different pricing strategies (such as the 1% discount) on customer conversion rates, premium revenue, and overall profitability. This enables the formulation of optimal pricing strategies.
+  
+2. **Conversion Rate Optimization**: Understanding how small changes in pricing can significantly affect conversion rates and customer behavior. This insight can be used to fine-tune strategies to maximize sales while considering the balance between volume and profitability.
+
+3. **Profitability and Revenue Analysis**: I have learned how to analyze and compare profitability across different groups, allowing for data-driven decisions regarding pricing, and understanding how volume can offset lower premiums.
+
+4. **Segmentation-Based Pricing**: Developing a deeper understanding of how segmentation (e.g., by customer behavior, vehicle risk, etc.) can lead to more targeted and personalized pricing strategies, ultimately improving customer satisfaction and retention.
+
+### Usefulness for Stakeholders:
+
+- **Commercial Team**: The analysis and recommendations regarding pricing strategies provide valuable insights to fine-tune pricing and enhance conversions while maintaining a balance with profitability. The commercial team can use these insights to design better offers that meet customer expectations.
+  
+- **Marketing & Sales Teams**: By understanding the impact of pricing changes on conversion rates, marketing can tailor campaigns that focus on price-sensitive segments and maximize the effectiveness of offers. The sales team can leverage insights into customer preferences to adjust sales tactics.
+
+- **Finance Team**: With a clear understanding of the impact of pricing adjustments on profitability, the finance team can better forecast revenue and ensure that pricing changes do not compromise the overall margin. They can also monitor financial health with a clear view of potential impacts from pricing decisions.
+
+- **Product Development**: Understanding the drivers of conversion and profitability allows the product team to assess whether the pricing models align with product value and customer demand. They can use this data to fine-tune product offerings and align pricing accordingly.
+
+Overall, these skills are critical for driving **data-informed decisions** that contribute to **increased conversions, optimized pricing**, and ultimately **higher profitability** for Hastings.
 
 
 
